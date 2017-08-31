@@ -1,0 +1,10 @@
+AWSIoTPythonSDK==1.1.2
+boto3==1.4.5
+botocore==1.5.92
+click==6.7
+docutils==0.13.1
+jmespath==0.9.3
+progressbar33==2.4
+python-dateutil==2.6.1
+s3transfer==0.1.10
+six==1.10.0
