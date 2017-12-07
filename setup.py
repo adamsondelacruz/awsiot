@@ -4,12 +4,12 @@ setup(
     name='awsiot',
     description='Command Line utility to easily provision IoT things in AWS',
 
-    version='0.1.0',
+    version='0.1.1',
 
     # Author details
     author='Adamson dela Cruz',
     author_email='adamson.delacruz@gmail.com',
-
+    url='https://github.com/adamsondelacruz/awsiot',
     license='MIT',
 
     # See https://pypi.python.org/pypi?%3Aaction=list_classifiers

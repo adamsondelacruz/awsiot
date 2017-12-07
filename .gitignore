@@ -10,7 +10,7 @@ __pycache__/
 cmake-build-debug/
 build/**
 dist/**
-
+.DS_Store
 ## File-based project format:
 *.iws
 

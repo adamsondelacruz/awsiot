@@ -37,7 +37,7 @@ def check_env():
 @click.option('-a', 'attributes', help='Json attribute of the type.')
 @click.argument('name')
 @main.command()
-def newthingtype(name, provider, attributes, description):
+def newthingtype(name, attributes, description):
     check_env()
 
     fields = attributes.split(',')
@@ -54,7 +54,7 @@ def newthingtype(name, provider, attributes, description):
 @click.option('-a', 'attributes', help='Json attribute file for the thing. Maximum of 3 attributes e.g. name,color,temperature')
 @click.argument('name')
 @main.command()
-def newthing(name, provider, attributes, type):
+def newthing(name, attributes, type):
 
     check_env()
 
