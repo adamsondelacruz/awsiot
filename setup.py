@@ -4,7 +4,7 @@ setup(
     name='awsiot',
     description='Command Line utility to easily provision IoT things in AWS',
 
-    version='0.1.1',
+    version='0.1.2',
 
     # Author details
     author='Adamson dela Cruz',
