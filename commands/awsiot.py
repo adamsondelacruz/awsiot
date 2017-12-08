@@ -40,7 +40,12 @@ def check_env():
 def newthingtype(name, attributes, description):
     check_env()
 
-    fields = attributes.split(',')
+    fields = None
+    with open(attributes,'r') as data:
+        fields = data.read().replace("\n","").split(",")
+    
+
+
     payload = {
         "thingTypeDescription": description,
         "searchableAttributes": fields
